@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Garamond, 'Times New Roman', serif;
+    font-size:14px;
+    margin: 0px;
+}
+
+#main-title,
+.description {
+    text-align:center;
+}
+
+.recipes {
+    list-style-type: none;
+    background-color: lightgray;
+    padding-block: 30px;
+    margin:0px;
+}
+
+.recipes li {
+    display:inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.recipes li img {
+    object-fit: cover;
+    border-radius:7px;
+}
+
+.recipes li a {
+    display:block;
+    padding:10px 20px;
+    border: 1px solid rgb(12, 105, 105);
+    background: white;
+    width:50%;
+    margin: 10px auto 0px;
+    border-radius:7px;
+    text-decoration:none;
+    color:black;
+}
+
+.recipes li a:hover {
+    background: rgb(12, 105, 105);
+    color:white;
+}
